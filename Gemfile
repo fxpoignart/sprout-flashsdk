@@ -1,3 +1,9 @@
 source "http://rubygems.org"
 
-gemspec
+gem 'sprout', :git => 'https://github.com/fxpoignart/project-sprouts.git'
+
+group :development, :test do
+  gem 'shoulda'
+  gem 'mocha'
+end
+ 
